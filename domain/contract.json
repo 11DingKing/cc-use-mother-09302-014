@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "活动志愿者排班资格",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "志愿者协调员",
+    "教师志愿者",
+    "家长志愿者"
+  ],
+  "states": [
+    "报名",
+    "核资",
+    "排班",
+    "换班",
+    "完成"
+  ],
+  "invariants": [
+    "资格快照",
+    "回避关系",
+    "休息间隔",
+    "紧急补位"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-014-A",
+      "actor": "志愿者协调员",
+      "state": "报名"
+    },
+    {
+      "case_id": "09302-014-B",
+      "actor": "家长志愿者",
+      "state": "核资"
+    }
+  ],
+  "tags": [
+    "volunteer-roster",
+    "eligibility-scheduling"
+  ]
+}
